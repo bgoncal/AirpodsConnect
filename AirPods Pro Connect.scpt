@@ -3,7 +3,7 @@ tell application "System Events"
 	tell process "SystemUIServer"
 		-- Working CONNECT Script.  Goes through the following:
 		-- Clicks on Bluetooth Menu (OSX Top Menu Bar)
-		--    => Clicks on SX-991 Item
+		--    => Clicks on Bruno’s AirPods Pro
 		--      => Clicks on Connect Item
 		set btMenu to (menu bar item 1 of menu bar 1 whose description contains "bluetooth")
 		tell btMenu
